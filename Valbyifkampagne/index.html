@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers Julefrokost</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"> <img src="images/Valbylogo.svg" alt=""></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#tilmeld" class="active">Prøvetræning!</a>
+
+
+
+        </nav>
+    </header>
+
+    <!--Home section design-->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Valby IF</h3>
+            <h1>Mærk Adrenalinen</h1>
+            <h3>Book din gratis prøvetime</h3>
+            <div>
+                <a href="#kort">
+                    <button class="tilmeld">Prøv Det!</button>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="box">
+        <div class="box-sm red"></div>
+        <div class="box-sm orange"></div>
+        <div class="box-sm yellow "></div>
+        <div class="box-sm green "></div>
+
+    </div>
+    <div class="icons">
+        <a href="https://www.instagram.com/valbyif/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://www.facebook.com/ValbyIF" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+        <a href="https://youtube.com" target="_blank"><i class='bx bxl-youtube'></i></a>
+        <a href="https://tiktok.com" target="_blank"><i class='bx bxl-tiktok'></i></a>
+        <a href="javascript:void(0);" onclick="openShareModal()" class="share-icon">
+            <i class='bx bxs-share'></i>
+        </a>
+
+        <div id="shareModal" class="modal">
+            <div class="modal-content">
+                <p>Del med dine venner</p>
+                <button onclick="shareOnFacebook()">Facebook</button>
+                <button onclick="shareOnInstagram()">Instagram</button>
+                <button onclick="shareOnMessenger()">Messenger</button>
+                <button onclick="closeShareModal()">Luk</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <section class="kort" id="kort">
+        <div class="korttekst">
+            <h1>Drengehold i Valby IF</h1>
+            <p class="kortp">Tjek vores forskellige drengehold ud her! og find det hold der passer bedst til dig</p>
+
+        </div>
+        <div class="page-content">
+            <div class="card">
+                <div class="content">
+                    <h2 class="title">DrengeHold 13+</h2>
+                    <p class="copy">Kom og vær med til sport, sjov og masser af vilde
+                        spring! Tilmeld dig nu og vær en del
+                        af holdet! 💪🔥 #ValbyIF #DrengePower</p>
+                    <button class="btn">Tilmeld Dig!</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2 class="title">DrengeHold 17+</h2>
+                    <p class="copy">Hey fyre 17+! Valby IF er klar til dig! Dyrk sport, ha' det sjovt og få masser af
+                        power! Tilmeld
+                        dig nu og vær en del af
+                        holdet! 💪🔥 #ValbyIF #Mandeholdet</p>
+                    <button class="btn">Tilmeld Dig!</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2 class="title">DrengeDøgn</h2>
+                    <p class="copy">Drengedøgn er on fire! 🔥 24 timers camp med Valby IF, fyldt med sjov, sport og
+                        episke
+                        spring! Tilmeld dig nu og
+                        vær klar til det vildeste døgn ever! 💪🏕️ #Drengedøgn</p>
+                    <button class="btn">Tilmeld Dig!</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2 class="title">DrengeSpring 15+</h2>
+                    <p class="copy">Drengespring er on point! 🚀 hver Tirsdag smadrer vi de vildeste
+                        spring af! Tilmeld dig nu og
+                        pres dig selv til et endnu højere neveau! 💪 #Drengespring #ValbyIF</p>
+                    <button class="btn">Tilmeld Dig!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="box2">
+        <div class="box2-sm red"></div>
+        <div class="box2-sm orange"></div>
+        <div class="box2-sm yellow "></div>
+        <div class="box2-sm green "></div>
+
+    </div>
+    <section class="video" id="video">
+        <div class="videotekst">
+            <h1>Gymnastik i Rampelyset</h1>
+            <p>Se, hvordan gymnastik bliver til sjov, venskab og uforglemmelige øjeblikke i vores
+                video!
+                Tryk på
+                afspil og vær med på eventyret!</p>
+        </div>
+
+        <iframe width="1120" height="630" src="images/Kampagnevideo.mp4" frameborder="0" allowfullscreen></iframe>
+
+
+    </section>
+
+    <div class="box2">
+        <div class="box2-sm red"></div>
+        <div class="box2-sm orange"></div>
+        <div class="box2-sm yellow "></div>
+        <div class="box2-sm green "></div>
+
+    </div>
+
+    <section class="tilmeld" id="tilmeld">
+        <h1 class="prøv">Prøv Det! Før du tilmelder dig</h1>
+
+        <div class="row">
+            <div class="col-md-12">
+                <form action="index.html" method="post">
+                    <h1> Book en gratis prøvetræning</h1>
+
+                    <fieldset>
+
+
+
+                        <label for="name">Navn:</label>
+                        <input type="text" id="name" name="user_name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="mail" name="user_email">
+
+
+
+
+
+                    </fieldset>
+                    <fieldset>
+
+
+
+
+
+                        <label for="job">Vælg hold</label>
+                        <select id="job" name="user_job">
+                            <optgroup label="Hold">
+                                <option value="DrengeHold 13+">DrengeHold 13+</option>
+                                <option value="DrengeHold 17+">DrengeHold 17+</option>
+                                <option value="DrengeDøgn">DrengeDøgn</option>
+                                <option value="DrengeSpring 15+">DrengeSpring 15+</option>
+
+                            </optgroup>
+
+                        </select>
+
+
+
+                    </fieldset>
+
+                    <button class="submit" type="submit">Book nu</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>Bestyrelsen@valbyif.dk</p>
+        <p>Valby IF Gymnastik | Porcelænstorvet 4 | 2500 Valby | cvr: 29727902</p>
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
